@@ -643,10 +643,10 @@ footer h3{
     .ju-txt-bttn {
         position: absolute;
         z-index: 1;
-        top: 70%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%);
-        width: 340px;
+        width: 500px;
     }
 
     .caro-btn{
