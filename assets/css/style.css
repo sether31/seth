@@ -40,7 +40,7 @@ section {
 
 /* banner */
 .banner {
-    background: url(/assets/img/banner.jpg) no-repeat;
+    background: url(../img/banner.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
@@ -80,7 +80,7 @@ section {
     height: 250px;
     display: inline-block;
     position: absolute;
-    background: url(/assets/img/banner-item.svg);
+    background: url(../img/banner-item.svg);
     bottom: -79px;
     right: -42px;
 }
@@ -159,7 +159,7 @@ section button.btn {
 section.rates {
     min-height: 100vh;
     background-color: var(--black);
-    background-image: url(/assets/img/lightRATES.png);
+    background-image: url(../img/lightRATES.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -204,7 +204,7 @@ section.rates {
 
 
 .logobg {
-    background-image:url(assets/img/logobg.png) ;
+    background-image:url(../img/logobg.png) ;
     object-fit: cover;
 }
 
@@ -275,7 +275,7 @@ section.rates {
 
 .testimonies::before {
     content: '';
-    background: url(/assets/img/x2.svg) no-repeat;
+    background: url(../img/x2.svg) no-repeat;
     position: fixed;
     left: 60px;
     top: 0;
@@ -287,7 +287,7 @@ section.rates {
 
 .testimonies::after {
     content: '';
-    background: url(/assets/img/x.svg) no-repeat;
+    background: url(../img/x.svg) no-repeat;
     position: fixed;
     right: 60px;
     bottom: 0;
@@ -476,7 +476,6 @@ footer h3{
 
     .testimonies::before {
         content: '';
-        background: url(/assets/img/x2.svg) no-repeat;
         position: fixed;
         left: 60px;
         top: 0;
@@ -488,7 +487,6 @@ footer h3{
     
     .testimonies::after {
         content: '';
-        background: url(/assets/img/x.svg) no-repeat;
         position: fixed;
         right: 60px;
         bottom: 0;
@@ -566,33 +564,6 @@ footer h3{
     }
 
   
-/* .testimonies::before {
-    content: '';
-    background: url(/assets/img/x2.svg) no-repeat;
-    position: fixed;
-    left: 60px;
-    top: 0;
-    background-size: contain;
-    width:  clamp(12.5rem, -3.125rem + 50vw, 25rem);
-    height:  clamp(12.5rem, -3.125rem + 50vw, 25rem);
-    z-index: 0;
-}
-
-.testimonies::after {
-    content: '';
-    background: url(/assets/img/x.svg) no-repeat;
-    position: fixed;
-    right: 60px;
-    bottom: 0;
-    background-size: contain;
-    width: clamp(12.5rem, -3.125rem + 50vw, 25rem);
-    height: clamp(12.5rem, -3.125rem + 50vw, 25rem);
-    z-index: 0;
-}
-
-
- */
-
 
     /* RATES */
 
