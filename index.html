@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="app.js" defer></script>
     <title>Title</title>
 </head>
 
@@ -32,7 +33,7 @@
                     <li class="nav-item px-lg-2"><a class="nav-link" href="#rates">Rates</a></li>
                     <li class="nav-item px-lg-2"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                     <li class="nav-item px-lg-2"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item px-lg-2"><a class="boton"><i class="bi bi-brightness-high-fill"
+                    <li class="nav-item px-lg-2"><a class="boton nav-link"><i class="bi bi-brightness-high-fill"
                                 id="toggleDark"></i></a></li>
                 </ul>
 
@@ -40,7 +41,7 @@
         </div>
     </nav>
 
-    <header class="banner">
+    <header class="banner" id="banner">
         <div class="container-fluid">
             <div class="b-txt">
                 <h1>
@@ -67,7 +68,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/f-coffee.svg" alt="">
+                                <img src="./assets/img/f-coffee.svg" alt="" id="tea">
                                 <p class="desc">
                                     Free-flowing <br>Coffee/Tea
                                 </p>
@@ -75,7 +76,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/fast.svg" alt="">
+                                <img src="./assets/img/fast.svg" alt="" id="wifii">
                                 <p class="desc">
                                     Fast Fiber <br>Internet
                                 </p>
@@ -83,7 +84,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/print.svg" alt="">
+                                <img src="./assets/img/print.svg" alt="" id="printerr">
                                 <p class="desc">
                                     Print/Copy<br>Services
                                 </p>
@@ -91,7 +92,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/aircon.svg" alt="">
+                                <img src="./assets/img/aircon.svg" alt="" id="aircon">
                                 <p class="desc">
                                     Fully <br>Airconditioned
                                 </p>
@@ -102,7 +103,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/parking.svg" alt="">
+                                <img src="./assets/img/parking.svg" alt="" id="parking">
                                 <p class="desc">
                                     Free Parking<br>Space
                                 </p>
@@ -110,7 +111,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/eye.svg" alt="">
+                                <img src="./assets/img/eye.svg" alt="" id="eyee">
                                 <p class="desc">
                                     Distraction<br>Free
                                 </p>
@@ -118,7 +119,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/power.svg" alt="">
+                                <img src="./assets/img/power.svg" alt="" id="outlet">
                                 <p class="desc">
                                     Dedicated Power<br>Outlet
                                 </p>
@@ -126,7 +127,7 @@
                         </div><!--end col-->
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="item">
-                                <img src="./assets/img/location.svg" alt="">
+                                <img src="./assets/img/location.svg" alt="" id="locationn">
                                 <p class="desc">
                                     Accessible<br> Location
                                 </p>
@@ -141,7 +142,8 @@
         </div>
 
     </section>
-    <section class="rates" id="rates">
+
+    <section class="rates" id="ratess">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 ">
@@ -203,10 +205,12 @@
         </div>
     </section>
 
+
     <!-- Testimonials -->
 
         <section class="testimonies" id="testimonials">
             <div class="parent">
+
                 
                 <h4 id="testi">testimonial</h4>
 
@@ -228,83 +232,6 @@
                 </div>
           </div>
         </section>
-            
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <section class="testimonials" id="testimonials">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="first-x col-3 d-flex flex-column d-block ">
-                    <img src="assets/img/x2.svg" alt="">
-                     <p class="tt-1">TESTIMONIAL</p> 
-                </div>
-
-                <div class=" col-lg-6 col-sm-12  row-2 d-block">
-                    <q class="p1"><span>... value for money </span> naman yung space and<br> enjoyed my stay, the
-                        place
-                        was <span> conducive </span> for me!</q>
-                    <p class="p1-at ">-Angelica A.</p>
-                    <q class="p2">... so so happy may coworking na. [I`m] really more <br><span> productive working
-                            there! </span> </q>
-                    <p class="p2-at">-Helen L.</p>
-                    <q class="p3">... It was definitely<span> worth the commute </span> </q>
-                    <p class="p3-at">-Christine G</p>
-                </div>
-
-                <div class="sec-x col-3 d-flex flex-column justify-content-around ">
-                     <p class="tt-2">TESTIMONIAL</p> 
-                    <img src="assets/img/x.svg" alt="">
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <section class="joinus">
@@ -318,8 +245,8 @@
             </ol>
             <div class="carousel-inner" role="listbox">
 
-                <div class="ju-txt-bttn">
-                    <button type="button" class="btn btn-primary btn-xl">BOOK YOUR VISIT NOW!</button>
+                <div class="ju-txt-bttn ">
+                    <button type="button" class="btn btn-primary btn-xl caro-btn">BOOK YOUR VISIT NOW!</button>
                 </div>
 
 
@@ -328,7 +255,7 @@
                     <img src="assets/img/cimg1.jpg" class="w-100 d-block" alt="First slide">
                 </div>
                 <div class="carousel-item c-img4 ">
-                    <p><span>PEOPLE WHO CO-WORK WITH US ARE COOL</span></p>
+                    <p><span>WORK SMART NOT HARDER</span></p>
                     <img src="assets/img/cimg4.jpg" class="w-100 d-block" alt="Second slide">
                 </div>
                 <div class="carousel-item c-img3 ">
@@ -404,11 +331,11 @@
 
 
 
-
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js">
     </script>
-    <script src="app.js"></script>
+
 </body>
 
 </html>
