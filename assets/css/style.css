@@ -646,11 +646,11 @@ footer h3{
         top: 70%;
         left: 50%;
         transform: translate(-50%);
-        width: 52vh;
+        width: 50vh;
     }
 
     .caro-btn{
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
 
 
@@ -678,16 +678,12 @@ footer h3{
     
 }
 
-@media screen and (max-width: 486px) {
-    .caro-btn{
-        font-size: 1.5rem;
-        width: 100%;
-    }
+/* @media screen and (max-width: 486px) {
 
     .testimonies {
         height: 78vh
     }
-}
+} */
 
 
 
