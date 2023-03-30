@@ -594,7 +594,7 @@ footer h3{
 
     .b-txt{
         margin-left: 2vw;
-        padding-top: 10vh;
+        padding-top: 11vh;
     }
 
     .b-txt p {
@@ -643,7 +643,7 @@ footer h3{
     .ju-txt-bttn {
         position: absolute;
         z-index: 1;
-        top: 75%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%);
         width: 500px;
