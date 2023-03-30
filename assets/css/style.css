@@ -2,7 +2,10 @@
 
 :root {
     --primary-color: #FED33B;
-    --black: #262626;
+    --black: #020204;
+    --r-blck: #000000;
+    --alt-blck:#262626;
+    --alt-blck-2: #0E0E0E;
 }
 
 body {
@@ -16,14 +19,27 @@ body {
 
 ::selection{
     background-color: var(--primary-color);
-    color: black;
+    color: var(--r-blck);
 }
 
 section {
     padding-top: 100px;
 }
 
+.btn-primary:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+}
+
+
+
 /* navigation */
+
+.navbar{
+    background: var(--r-blck) !important;
+}
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: var(--primary-color);
@@ -98,21 +114,22 @@ section {
 .btn-xl {
     font-size: clamp(0.575rem, -0.5313rem + 4.5vw, 2rem);
     padding: 1rem 2rem;
-    border: 2px solid #000;
-    background-color: black;
+    border: 2px solid #111;
+    background-color:var(--r-blck);
 }
 
 
 button.btn.btn-primary.btn-xl:hover {
     background-color:var(--primary-color);
-    border: 2px solid black;
+    border: 2px solid var(--r-blck);
     color: var(--black);
 }
 
 
  
 
-/* Why corowk with us */
+/* Why corowk with us SERVICES */
+
 
 .wcwu{
     position: relative;
@@ -141,6 +158,11 @@ section.wcwu {
     padding: 10%;
 }
 
+.item img:hover{
+    transform: rotate(-360deg);
+    transition: ease-in-out .4s;
+}
+
 .feat .item img{
     max-width: 100%;
 }
@@ -148,6 +170,7 @@ section.wcwu {
 .desc {
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 section button.btn {
@@ -155,13 +178,14 @@ section button.btn {
     display: block;
 }
 
+
+
+
 /* Rates */
-
-
 
 section.rates {
     min-height: 100vh;
-    background-color: var(--black);
+    background-color: #010101;
     background-image: url(../img/lightRATES.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -173,7 +197,7 @@ section.rates {
 }
 
 .rbox {
-    background-color: #0E0E0E;
+    background-color: var(--black);
     text-align: center;
     padding: 60px 30px;
     min-height: 550px;
@@ -185,7 +209,25 @@ section.rates {
     border-radius: 20px;
     color: var(--primary-color);
     margin-bottom: 30px;
+
+    transition: ease-in-out .3s;
 }
+
+.rbox:hover{
+    scale: 1;
+    background: var(--primary-color);
+    color: var(--r-blck);
+    box-shadow: 0 0 10px var(--primary-color),
+    0 0 25px var(--primary-color);
+}
+
+.rbox:hover .price{
+    text-shadow: 0 0 10px var(--r-blck),
+    0 0 15px var(--r-blck);
+    color: #fff;
+}
+
+
 
 .fs {
     font-size: clamp(1rem, 0.9375rem + 1vw, 1.5rem);
@@ -242,7 +284,7 @@ section.rates {
 
 .feedback q, .feedback pre{
     font-size: clamp(0.8rem, -0.4844rem + 4.75vw, 2.1875rem);
-    color: black;
+    color: var(--r-blck);
     text-transform: none;
     font-style: italic;
     overflow: hidden;
@@ -351,11 +393,11 @@ section.rates {
 }
 
 .c-img1 p {
-    color: black;
+    color: var(--r-blck);
 }
 
 .c-img3 p {
-    color: black;
+    color: var(--r-blck);
     top: 15%;
     left: 10%;
     transform: translate(-10%);
@@ -382,6 +424,11 @@ section.rates {
 .location iframe {
     height: 100vh;
     width: 100%;
+    filter: grayscale(60%);
+}
+
+.location iframe:hover{
+    filter: none;
 }
 
 .map-text h2{

@@ -31,17 +31,16 @@ toggle.addEventListener('click', function(){
         // JOIN US
         contact.style.background = '#FFFFFF';
         contact.style.color = '#000000';
-      
     }
     else{
-        body.style.background = '#0E0E0E';
+        body.style.background = '#020204';
         body.style.color = '#FFFFFF';
         body.style.transition = 'ease-in-out .5s';
 
         // banner.style.filter = 'invert(2)';
 
         // SERVICES
-        services.style.background = '#0E0E0E';
+        services.style.background = '#020204';
         services.style.color = '#FFFFFF';
         tea.style.filter = "invert(2)";
         wifii.style.filter = "invert(2)";
@@ -61,7 +60,8 @@ toggle.addEventListener('click', function(){
 
 
         // JOIN US
-        contact.style.background = '#0E0E0E';
+        contact.style.background = '#020204';
         contact.style.color = '#FFFFFF';
+
     }
 });
