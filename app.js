@@ -21,7 +21,7 @@ toggle.addEventListener('click', function(){
         outlet.style.filter = "invert(0)";
         locationn.style.filter = "invert(0)";
         
-        // TESTIMONIES
+        // TESTIMONIESS
         testimonials.style.color = '#000000';
         angelicatext.style.color = '#000000';
         helentext.style.color = '#000000';

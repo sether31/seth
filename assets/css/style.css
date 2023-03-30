@@ -84,6 +84,7 @@ section {
     background: url(../img/banner-item.svg);
     bottom: -79px;
     right: -42px;
+    z-index: -1;
 }
 
 
@@ -473,6 +474,7 @@ footer h3{
 }
 
 @media screen and (max-width: 992px) {
+
     .wcwu h2 {
         position: relative;
         transform: rotate(0deg);
@@ -523,7 +525,30 @@ footer h3{
     }
 
 
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 765px){
     
@@ -549,13 +574,39 @@ footer h3{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 575px) {
+
+    .testimonies{
+        margin-bottom: 100px !important;
+    }
+
+    .b-txt{
+        margin-left: 5vw;
+        padding-top: 10vh;
+    }
+
     .b-txt p {
         font-size: 1.5rem;
     }
 
     .btn-xl {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: .8rem 1.5rem;
     }
 
@@ -577,7 +628,6 @@ footer h3{
     background-size: contain;
     width:  0px;
     height:  0px;
-    z-index: 0;
 }
 
 .testimonies::after {
@@ -600,6 +650,7 @@ footer h3{
         top: 70%;
         left: 50%;
         transform: translate(-50%);
+        width: 93vh;
     }
 
     .caro-btn{
@@ -641,3 +692,17 @@ footer h3{
         height: 78vh
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
