@@ -593,7 +593,7 @@ footer h3{
 @media screen and (max-width: 575px) {
 
     .b-txt{
-        margin-left: 5vw;
+        margin-left: 2vw;
         padding-top: 10vh;
     }
 
@@ -603,7 +603,7 @@ footer h3{
 
     .btn-xl {
         font-size: 1.3rem;
-        padding: .8rem 1.5rem;
+        padding: .8rem .8rem;
     }
 
     .wcwu h2 {
