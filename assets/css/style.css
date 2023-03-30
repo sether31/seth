@@ -592,10 +592,6 @@ footer h3{
 
 @media screen and (max-width: 575px) {
 
-    .testimonies{
-        margin-bottom: 100px !important;
-    }
-
     .b-txt{
         margin-left: 5vw;
         padding-top: 10vh;
@@ -650,11 +646,11 @@ footer h3{
         top: 70%;
         left: 50%;
         transform: translate(-50%);
-        width: 93vh;
+        width: 52vh;
     }
 
     .caro-btn{
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
 
